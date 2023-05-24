@@ -1,4 +1,4 @@
-# Using the re module to test output
+# Using the re module to test ouput
 
 import re
 
