@@ -16,3 +16,7 @@ print("Song Lyrics:", song_lyrics)
 # Extract and print dates
 dates = re.findall(r"\d{2}-[A-Z]{3}-\d{4}", api_response)
 print("Dates:", dates)
+
+# Extract and prints ISBN numbers pattern
+isbn_numbers = re.findall(r"ISBN \d{3}-\d-\d{3}-\d{5}-\d", api_response)
+print("ISNB numbers", isbn_numbers)
