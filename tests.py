@@ -19,4 +19,4 @@ print("Dates:", dates)
 
 # Extract and prints ISBN numbers pattern
 ISNB_numbers = re.findall(r"ISBN \d{3}-\d-\d{3}-\d{5}-\d", api_response)
-print("ISNB numbers", ISNB_numbers)
+print("ISNB numbers", isbn_numbers)
