@@ -1,0 +1,8 @@
+
+import re
+
+text = "[Verse 1] That's when I'm gonna stand up, take my people with me! together we are going to a brand new home!"
+pattern = r"\[Verse \d+] .*"
+
+lyrics = re.findall(pattern, text)
+print(lyrics)
