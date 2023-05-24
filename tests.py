@@ -12,3 +12,7 @@ print("Movie Titles:", movie_titles)
 # Extract and print song lyrics
 song_lyrics = re.findall(r"\[Verse \d+\] (.+)", api_response)
 print("Song Lyrics:", song_lyrics)
+
+# Extract and print dates
+dates = re.findall(r"\d{2}-[A-Z]{3}-\d{4}", api_response)
+print("Dates:", dates)
